@@ -1,0 +1,240 @@
+:root {
+    --red: rgb(237, 28, 28);
+    --yellow: rgb(255, 187, 0);
+    --black: #333;
+}
+
+.indent {
+    margin-left: 1rem;
+}
+
+.finishes-main-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+    margin-inline: 1rem;
+}
+
+.finishes-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.finishes-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+  
+    background-color: white;
+    padding: 1rem;
+    
+    margin: 1rem;
+    margin-block: 1rem;
+    width: 20rem;
+    height: 23rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+    
+}
+
+.finishes-box p, .finishes-header {
+    text-align: center;
+}
+
+.finishes-header {
+    background-color: var(--red);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem 0;
+    color: white;
+}
+
+.finishes-box p {
+    font-style: italic;
+    width: 15rem;
+    font-weight: 400;
+    
+}
+
+
+.finishes-box img {
+    border-radius: 0.5rem;
+    width: 17rem;
+    transition: transform 0.3s ease;
+}
+
+.finishes-box img:hover {
+    transform: scale(1.02);
+}
+
+
+.finishes-text-area {
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+}
+
+.finishes-text-area p{
+    margin-block: 1rem;
+    line-height: 1.5;
+}
+
+.finishes-steps-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+    border-radius: 0.5rem;
+}
+
+.finishes-steps-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Finish Style Page*/
+
+.finish-style-header-background {
+    margin-inline: 1rem ;
+    background-color: var(--red);
+    padding: 1rem;
+    border-radius: 1rem 0;
+    text-align: center;
+    color: white;
+}
+
+.finish-style-header-background h1 {
+    color: white;
+}
+
+.square-bullets {
+    list-style-type: square;
+
+
+}
+
+.finish-style-details-container {
+    background-color: white;
+    padding: 1rem;
+    margin-block: 2rem;
+    margin-inline: 1rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+}
+
+.finish-style-details {
+    margin: 1rem;
+    line-height: 2;
+    
+}
+
+.finish-style-sample-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.finish-style-sample-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+}
+
+.finish-style-sample-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.finish-style-sample-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.finish-style-sample-img p {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.back-button-container {
+    display: flex;
+    align-items: center;
+    
+    text-align: left;
+    margin-left: 2rem
+}
+
+.back-button {
+    width: 2rem;
+    margin: 0.5rem;
+}
+
+.back-button-container p {
+    font-weight: bold;
+}
+
+
+
+
+.unique-medal-sample-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9); 
+    box-shadow: 2px 4px 11px -7px rgba(0,0,0,0.9);
+    
+}
+
+.unique-medal-sample-img {
+    margin: 1rem;
+    text-align: center;
+}
+
+.unique-medal-sample-img img{
+    width: 10rem;
+    
+}
+
+.unique-medal-header {
+    text-align: center;
+    margin-block: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 535px) {
+    .back-button-container {
+        display: none;
+    }
+
+    .finishes-header, .finish-style-header-background h1 {
+        font-size: 1.5rem;
+    }
+
+    
+}
